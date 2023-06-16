@@ -1,4 +1,4 @@
-# Master project
+# Master project: Coffee quality
 
 ## Dataset
 The database contains information from the Coffee Quality Institute which is a non-profit organisation working internationally to improve the quality of coffee and the lives of the people who produce it. Each of the 5 datasets contain information on features of coffee and its production, including an overall score of quality. You will have access to the following variables, recorded by batch. 
@@ -13,9 +13,8 @@ The database contains information from the Coffee Quality Institute which is a n
 - Qualityclass – Quality score for the batch (Good - ≥ 82.5, Poor - <82.5). Note: 82.5 was selected as 
 the cut off as this is the median score for all the batches tested. 
 ## Task
-Imagine you have been asked by a local coffee farmer to investigate the following question of interest:
-• What influence do different features of coffee have on whether the quality of a batch of coffee is classified 
-as good or poor?
+Find the influence from different features of coffee have on whether the quality of a batch of coffee is classified 
+as good or poor.
 
 ## Conclusion
 - GLM stepwise with interaction terms: (aroma:flavor, flavor:acidity, aroma:acidity) is the best fitted model with lowest AIC and BIC
